@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(0,0,33);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+ nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(11, 11, 63);
+ 
+}
+.left{
+  font-size: 1.5rem;
+}
+nav ul li{
+  list-style-type: none;
+  margin: 0 23px;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+nav ul li a:hover{
+  color: lavender;
+  }
+nav ul{
+  display: flex;
+  justify-content: center;
+  
+}
+.firstSection > div{
+  width: 30%;
+}
+.firstSection{
+  margin: 140px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+.leftSection{
+  font-size: 3rem;
+  align-items: center;
+}
+.rightSection{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.rightSection img{
+  width: 78%;
+  margin: 50px 0;
+}
+.purple{
+  color: blueviolet;
+}
+#element{
+  color: blueviolet;
+}
+main hr{
+  border: 0;
+  background-color: #9c97f1;
+  height: 1.2px;
+  margin: 30px;
+}
+.seccondSection{
+  max-width: 175vh;
+  margin: auto;
+  height: 90vh;
+}
+.seccondSection h1{
+  font-size: 1.9rem;
+  
+}
+.type-grey{
+  color: gray;
+}
+.box{
+  width: 173vh;
+  background-color: white;
+  height: 1.2px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.vertical{
+ 
+  background: white;
+  height: 73px;
+  width: 1px;
+}
+
+.devImg1{
+  width: 23px;
+  position: relative;
+  top: -30px;
+  left: -10px;
+
+}
+.vertical-text{
+  width: 126px;
+  position: relative;
+  top: 46px;
+  left: -1px;
+}
+.vertical-desc{
+  font-size: 8px;
+  width: 132px;
+  position: relative;
+  top: 49px;
+}
+.footer{
+  display: flex;
+  padding: 23px 80px;
+  justify-content: space-evenly;
+  color: rgb(19, 12, 88);
+  color: white;
+  margin-left: 37px;
+}
+.footer > div{
+  width: 220px;
+}
+footer ul{
+  list-style-type: none;
+}
+ .footerRights{
+  color: grey;
+  text-align: center;
+  padding: 12px 0;
+
+}
+.leftSection .btn {
+  color: white;
+  border: 2px solid white;
+  background-color: #1e2167;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.leftSection .button{
+  padding: 50px 0;
+}
